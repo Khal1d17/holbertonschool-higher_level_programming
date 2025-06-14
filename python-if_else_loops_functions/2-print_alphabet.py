@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-a = " "
+a = ""
 for i in "abcdefghijklmnopqrstuvwxyz":
     a += i
 print("{}".format(a), end="")
