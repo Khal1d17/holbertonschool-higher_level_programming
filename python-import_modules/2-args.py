@@ -2,7 +2,7 @@
 import sys
 if __name__ == "__main__":
     k = len(sys(argv))-1
-    if k = 0:
+    if k == 0:
         print("0 arguments.")
     elif k =1:
         print("1 arguments:")
