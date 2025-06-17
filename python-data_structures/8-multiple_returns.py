@@ -4,6 +4,7 @@ def multiple_returns(sentence):
     for i in sentence:
         s += 1
     if s == 0:
-        print ("length: 0 - First character: None")
+        return (0, None)
     else:
-        print (f"Length: {s} - First character: {sentence[0]}")
+        return (s, sentence[0])
+
