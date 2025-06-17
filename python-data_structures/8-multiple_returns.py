@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    length = len(sentence)
-    first = sentence[0]
-    return ("Length: {:d} - First character: {}".format(length, first))
+    s = 0
+    for i in sentence:
+        s += 1
+    if s == 0:
+        return ("length: 0 - First character: None")
+    else:
+        return (f"Length: {s} - First character: {sentence[0]}")
