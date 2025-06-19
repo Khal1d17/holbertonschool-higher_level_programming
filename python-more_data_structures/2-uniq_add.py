@@ -3,4 +3,4 @@ def uniq_add(my_list=[]):
     result = 0
     for i in my_list:
         result = result + i
-    return ("Result: {:d}".format(result))
+    return ("Result: {}".format(result))
