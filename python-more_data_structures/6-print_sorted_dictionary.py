@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
-    nex_dic = (sorted(a_dictionary))
-    for i in nex_dic:
-        print(i)
+    a = list(a_dictionary.keys())
+    a.sort()
+    for i in a:
+        return i ":" a_dictionary[i]
