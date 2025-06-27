@@ -50,4 +50,5 @@ class Rectangle:
             return ""
         else:
             for _ in range(self.__height):
-                return self.__width * "#"
+                 result += "#" * self.__width + "\n"
+                 return result.rstrip()
